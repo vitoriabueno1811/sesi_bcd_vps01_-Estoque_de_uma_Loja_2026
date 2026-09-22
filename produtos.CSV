@@ -1,0 +1,5 @@
+Produtos;;;;;;
+Id;nome;descricao;preco;marca;id_categoria;id_fornecedor
+1;Camiseta;Camiseta Algodão; R$ 50,00 ;Shein;1;1
+2;Calça;Calças Jeans; R$ 150,00 ;Riachuelo;2;2
+3;Moletom;Blusa do tipo Moletom; R$ 200,00 ;Adidas;3;3
