@@ -42,10 +42,48 @@
 ## Dados de Teste em CSV
 
 - [Produtos.csv](./produtos.CSV)
+
+|Produtos|
+|Id|nome|descricao|preco|marca|id_categoria|id_fornecedor|
+|-|-|-|-|-|-|-|
+|1|Camiseta|Camiseta Algodao|R$ 50,00|Shein|1|1|
+|2|Calca|Calcas Jeans|R$ 150,00|Riachuelo|2|2|
+|3|Moletom|Blusa do tipo Moletom| R$ 200,00|Adidas|3|3|
 - [Categoria.csv](./Categoria.CSV)
+
+|Categoria|
+|id|Nome|descricao|
+|-|-|-|
+|1|Camisetas|Camisetas Algodao|
+|2|Calcas|Calcas Jeans|
+|3|Blusas|Blusas de frio|
+
 - [Fornecedor.csv](./Fornecedor.CSV)
+
+|Fornecedor|
+|id|razao_social|nome_fantasia|cnpj|telefone|email|endereco|
+|-|-|-|-|-|-|-|
+|1|In Glow Brasil|Shein|45.814.425/0001-72|(21)2391-5301|Shein@gmail.com|SaoPaulo-SP|
+|2|loja Riachuelo S/A|Riachuelo|33.200.056/0001-49|0800 4003-051|Riachuelo@gamil.com|Sao Paulo- SP|
+|3|ADIDAS DO BRASIL LTDA|Adidas|42.274.696/0001-94|(11) 5546-3700|ADIDAS@gamil.com|Sao Paulo-SP|
+
 - [Estoque.csv](./Estoque.CSV)
+
+|Estoque|
+|id|id_produto|quantidade|quantidade_minima|localizacao|
+|-|-|-|-|-|
+|1|1|100|75|Amparo|
+|2|2|200|200|Campinas|
+|3|3|450|300|Jaguariuna|
 - [ Movimentação de Estoque.csv](./Movimentacao.CSV)
+
+|Movimentacao de Estoque|
+|id|id_produto|tipo|quantidade|data|
+|-|-|-|-|-|
+|1|1|Saida|45|22/09/2026|
+|2|2|Entrada|75|23/09/2026|
+|3|3|Saida|20|24/09/2026|
+
 ---
 
 ## Script SQL DDL
