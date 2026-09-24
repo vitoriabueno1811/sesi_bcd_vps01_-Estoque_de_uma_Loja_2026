@@ -1,5 +1,6 @@
-Estoque,,,,
-id,id_produto,quantidade,quantidade_minima,localizacao
-1,1,100,75,Amparo
-2,2,200,200,Campinas
-3,3,450,300,Jaguari�na
+|Estoque|
+|id|id_produto|quantidade|quantidade_minima|localizacao|
+|-|-|-|-|-|
+|1|1|100|75|Amparo|
+|2|2|200|200|Campinas|
+|3|3|450|300|Jaguariuna|

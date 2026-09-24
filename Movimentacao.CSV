@@ -1,5 +1,6 @@
-Movimenta��o de Estoque,,,,
-id,id_produto,tipo,quantidade,data
-1,1,Saida,45,22/09/2026
-2,2,Entrada,75,23/09/2026
-3,3,Saida,20,24/09/2026
+|Movimentacao de Estoque|
+|id|id_produto|tipo|quantidade|data|
+|-|-|-|-|-|
+|1|1|Saida|45|22/09/2026|
+|2|2|Entrada|75|23/09/2026|
+|3|3|Saida|20|24/09/2026|

@@ -1,5 +1,6 @@
-Produtos,,,,,,
-Id,nome,descricao,preco,marca,id_categoria,id_fornecedor
-1,Camiseta,Camiseta Algod�o, R$ 50,00 ,Shein,1,1
-2,Cal�a,Cal�as Jeans, R$ 150,00 ,Riachuelo,2,2
-3,Moletom,Blusa do tipo Moletom, R$ 200,00 ,Adidas,3,3
+|Produtos|
+|Id|nome|descricao|preco|marca|id_categoria|id_fornecedor|
+|-|-|-|-|-|
+|1|Camiseta|Camiseta Algodao|R$ 50,00|Shein|1|1|
+|2|Calca|Calcas Jeans|R$ 150,00|Riachuelo|2|2|
+|3|Moletom|Blusa do tipo Moletom| R$ 200,00|Adidas|3|3|

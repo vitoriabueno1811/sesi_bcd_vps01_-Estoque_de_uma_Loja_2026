@@ -1,1 +1,51 @@
-# sesi_bcd_vps01_-Estoque_de_uma_Loja_2026
+# Projeto: Estoque de Loja 
+---
+
+# Modelo de Entidade e Relacionamento (MER / DER)
+
+![MER / DER Conceitual](MER_e_DER.drawio.png)
+---
+
+## 📑 Dicionário de Dados
+
+|entidade|Atributo|Tipo|Tamanho|Descrisao|
+|-|-|-|-|-|
+|produto|id|int|11|chave primaria do Produto|
+|produto|Nome|varchar|50|Nome do produto|
+|produto|descricao|varchar|200|descricao do produto|
+|produto|preco|decimal|10|2|Preco em Reais do Produto|
+|produto|marca|varchar|70|Marca do produto|
+|produto|Id_categoria|int|11|Chave estrageira referencia a Categoria(id)|
+|produto|id_fornecedor|int|11|Chave estrageira referncia a Fornecedor(id)|
+|Categoria|id|int|11|chave primaria da Categoria|
+|Categoria|Nome|varchar|100|Nome da Categoria|
+|Categoria|descricao|varchar|200|descricao da categoria|
+|Fornecedor|id|int|11|Chave primaria do Fornecedor|
+|Fornecedor|razao_social|varchar|70|Razao social da Empresa Fornecedora|
+|Fornecedor|nome_fantasia|varchar|70|Nome fantasia da Empresa Fornecedora|
+|Fornecedor|cnpj|decimal|10|2|CNPJ da Empresa|
+|Fornecedor|telefone|decimal|10|2|Telefone da Empresa|
+|Fornecedor|email|varchar|50|Email da Empresa|
+|Fornecedor|endereco|varchar|200|Endereco da Empresa|
+|Estoque|id|int|11|Chave primaria do Estoque|
+|Estoque|id_produto|int|11|Chave estrageira referecia a Produto(id)|
+|Estoque|quantidade|varchar|1000|Qunatidade em Estoque|
+|Estoque|quantidade_minima|varchar|200|Quantidade Minima que deve conter no Estoque|
+|Estoque|localizacao|varchar|200|Localizacao do Estoque|
+|Movimentacao de Estoque|id|int|11|Chave primaria da Movimentacao de Estoque| 
+|Movimentacao de Estoque|id_produto|int|11|Chave estrangeira referencia a Produto(id)|
+|Movimentacao de Estoque|tipo|varchar|100|Tipificacao da movimentacao (Entrada|saida)|
+|Movimentacao de Estoque|quantidade|varchar|1000|Quantidade de Movimentacao de Estoque|
+|Movimentacao de Estoque|data|DATE|Data de gerenciamento do Estoque|
+---
+
+## 🔗 Dados de Teste em CSV
+
+- [Produtos.csv](./produtos.CSV)
+- [Categoria.csv](./Categoria.CSV)
+- [Fornecedor.csv](./Fornecedor.CSV)
+- [Estoque.csv](./Estoque.CSV)
+- [ Movimentação de Estoque.csv](./Movimentacao.CSV)
+---
+
+## 🛠️ Script SQL DDL
